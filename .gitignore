@@ -19,6 +19,7 @@
 *.rar
 *.tar
 *.zip
+*.war
 
 # Logs and databases #
 ######################
@@ -40,3 +41,7 @@ Thumbs.db
 ##################
 
 OpenAGE/
+temp-build-OpenAGE/
+docker-postgres@tmp/
+docker-tomcat@tmp/
+OpenAGE@tmp/

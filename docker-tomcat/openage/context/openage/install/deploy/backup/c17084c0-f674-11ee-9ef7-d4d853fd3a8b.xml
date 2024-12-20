@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model version="" time="1712668894792">
+	<tables>
+		<table created="" updated="" id="6" name="SYS_CALENDAR_USER_PREFS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="487698269" name="TEST" type="2" mode="0">
+			<label>fr=TEST
+en=TEST</label>
+			<parameters></parameters>
+			<columns>
+				<column created="" updated="" id="488556717" name="TEST" order="0" relationTable="0" relationColumn="0" constraint="-1" dataType="12" keySeq="0" flag="1" size="255" required="true" searchable="true" format="-1864799332" mode="0">
+					<label>fr=test</label>
+					<properties></properties>
+				</column>
+				<column created="2024-04-09 15:24:35.515" updated="2024-04-09 15:24:35.515" id="-1545519347" name="TT" order="1" relationTable="0" relationColumn="0" constraint="-1" dataType="12" keySeq="0" flag="0" size="255" required="false" searchable="true" format="-1864799332" mode="0">
+					<label>fr=tt</label>
+					<properties></properties>
+				</column>
+			</columns>
+		</table>
+		<table created="" updated="" id="1357963732" name="DAT_IMPORTS" type="2" mode="0">
+			<label>fr=Imports
+en=Imports</label>
+			<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+indexable=false
+]]></parameters>
+			<columns>
+				<column created="" updated="" id="-1096586476" name="TITLE" order="0" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="1" size="255" required="true" searchable="true" format="-1864799332" mode="0">
+					<label>fr=TITLE
+en=TITLE</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1233479276" name="TARGET" order="1" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="true" searchable="true" format="1865606931" mode="0">
+					<label>fr=TARGET
+en=TARGET</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1289035164" name="CONTENT" order="2" relationTable="0" relationColumn="0" constraint="0" dataType="-1" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-297396665" mode="0">
+					<label>fr=CONTENT
+en=CONTENT</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1963990524" name="COMPLETED" order="3" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-27733507" mode="0">
+					<label>fr=COMPLETED
+en=COMPLETED</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2064513724" name="CR" order="4" relationTable="0" relationColumn="0" constraint="0" dataType="-1" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-297396665" mode="0">
+					<label>fr=CR
+en=CR</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1807144572" name="ERROR" order="5" relationTable="0" relationColumn="0" constraint="0" dataType="-1" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-297396665" mode="0">
+					<label>fr=ERROR
+en=ERROR</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="864454805" name="CONTENT_FILE" order="6" relationTable="0" relationColumn="0" constraint="0" dataType="-4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="-297310265" mode="0">
+					<label>fr=CONTENT_FILE
+en=CONTENT_FILE</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="361085910" name="TARGET_VIEW" order="7" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=TARGET_VIEW
+en=TARGET_VIEW</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1363816667" name="DOALL" order="8" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-27733507" mode="0">
+					<label>fr=DOALL
+en=DOALL</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1729012533" name="CREATED" order="9" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date cr&#233;ation
+en=Created</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=CREATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1729012534" name="UPDATED" order="10" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date MAJ
+en=Updated</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=UPDATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1729012535" name="OWNER_ID" order="11" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Propri&#233;taire
+en=Owner</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=OWNER_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1729012536" name="CREATOR_ID" order="12" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Cr&#233;ateur
+en=Creator</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=CREATOR_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1729009669" name="AUTHOR_ID" order="13" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Auteur
+en=Author</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=AUTHOR_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1729009670" name="ACTIVATED" order="14" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Activation
+en=Activation</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=ACTIVATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1729009671" name="HASHCODE" order="15" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=D&#233;doublonnage
+en=Deduplication</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=HASHCODE
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1729009672" name="TRANSFERED" order="16" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1409576363" mode="0">
+					<label>fr=Transfert
+en=Transfer</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=TRANSFERED
+]]></properties>
+				</column>
+			</columns>
+		</table>
+		<table created="" updated="" id="463815318" name="DAT_LABELS_STATUS" type="3" mode="1">
+			<label>fr=Status
+en=Statut</label>
+			<parameters></parameters>
+			<labels>
+				<label created="" updated="" id="153029773" order="0" view="0" deactivated="false" default="true">
+					<text>fr=En cours
+en=In progress</text>
+					<parameters><![CDATA[True]]></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+				<label created="" updated="" id="241075288" order="1" view="0" deactivated="false" default="false">
+					<text>fr=Termin&#233;
+en=Finished</text>
+					<parameters><![CDATA[False]]></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+				<label created="" updated="" id="812587700" order="2" view="0" deactivated="false" default="false">
+					<text>fr=Annul&#233;e
+en=Cancelled</text>
+					<parameters><![CDATA[False]]></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+			</labels>
+		</table>
+		<table created="" updated="" id="51" name="SYS_SEARCH_MODEL" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="104" name="DAT_LABELS_ALARM_MODE" type="3" mode="1">
+			<label>fr=Alarme
+en=Alarm</label>
+			<parameters></parameters>
+			<labels>
+				<label created="" updated="" id="0" order="0" view="0" deactivated="false" default="false">
+					<text></text>
+					<parameters></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+			</labels>
+		</table>
+		<table created="" updated="" id="61" name="SYS_USER_HIERARCHY_VIEWS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="62" name="SYS_USERS" type="0" mode="1">
+			<label>fr=Utilisateurs
+en=Users</label>
+			<parameters></parameters>
+			<columns>
+				<column created="" updated="" id="4" name="COMPANY_ID" order="0" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Companie
+en=Company</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="5" name="BASE_ID" order="1" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Base
+en=Base</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="6" name="OWNER" order="2" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Utilisateur
+en=User</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="7" name="LOGIN" order="3" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="0" size="12" required="false" searchable="false" format="-1864799332" mode="0">
+					<label>fr=N/A
+en=N/A</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="8" name="PASSWORD" order="4" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="0" size="12" required="false" searchable="false" format="-1864799332" mode="0">
+					<label>fr=N/A
+en=N/A</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="9" name="LOGIN_TIME" order="5" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1409576363" mode="0">
+					<label>fr=N/A
+en=N/A</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="10" name="LOGIN_RETRIES" order="6" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=N/A
+en=N/A</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="11" name="LANG" order="7" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Langue
+en=Language</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="12" name="CURRENCY" order="8" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="64" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Devise
+en=Currency</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="13" name="TIME_ZONE" order="9" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="0" size="64" required="false" searchable="false" format="-1864799332" mode="0">
+					<label>fr=N/A
+en=N/A</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="14" name="IS_ACTIVE" order="10" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=N/A
+en=N/A</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="15" name="FIRSTNAME" order="11" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="2" size="40" required="false" searchable="true" format="-1864799332" mode="0">
+					<label>fr=Pr&#233;nom
+en=First name</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="16" name="LASTNAME" order="12" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="1" size="40" required="false" searchable="true" format="-1864799332" mode="0">
+					<label>fr=Nom
+en=Last name</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="18" name="EMAIL" order="13" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="2" size="100" required="false" searchable="true" format="-1864799332" mode="0">
+					<label>fr=Email
+en=Email</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="19" name="PHONE" order="14" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="0" size="18" required="false" searchable="true" format="-1864799332" mode="0">
+					<label>fr=T&#233;l&#233;phone
+en=Phone</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="20" name="MOBILE" order="15" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="0" size="18" required="false" searchable="true" format="-1864799332" mode="0">
+					<label>fr=Mobile
+en=Mobile</label>
+					<properties></properties>
+				</column>
+			</columns>
+		</table>
+		<table created="" updated="" id="67" name="SYS_VIEWS" type="0" mode="0">
+			<label>fr=Vues
+en=Views</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="66" name="SYS_VIEW_RULES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="65" name="SYS_VIEW_BEHAVIORS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="64" name="SYS_VERSION" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="63" name="SYS_VALUES_CRITERIA" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="1048037902" name="DAT_ALERTS" type="2" mode="0">
+			<label>fr=Alertes
+en=Alerts</label>
+			<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+indexable=false
+]]></parameters>
+			<columns>
+				<column created="" updated="" id="-2016715516" name="TITLE" order="0" relationTable="0" relationColumn="0" constraint="1" dataType="12" keySeq="0" flag="1" size="255" required="true" searchable="true" format="-1864799332" mode="0">
+					<label>fr=Libell&#233;
+en=Label</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715517" name="USER_FROM" order="1" relationTable="62" relationColumn="0" constraint="0" dataType="2003" keySeq="0" flag="0" size="0" required="false" searchable="false" format="-631027346" mode="0">
+					<label>en=Authors
+Auteurs=</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+field=fr.openage.mdd.meta.MDField@8f1b9109
+]]></properties>
+					<table created="" updated="" id="1894018807" name="INT_1894018807" type="5" mode="0">
+					</table>
+				</column>
+				<column created="" updated="" id="-2016715518" name="TABLE_ID" order="2" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="true" searchable="true" format="1865606931" mode="0">
+					<label>fr=Table
+en=Table</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715519" name="CRITERIA" order="3" relationTable="0" relationColumn="0" constraint="0" dataType="-1" keySeq="0" flag="0" size="0" required="false" searchable="false" format="-297396665" mode="0">
+					<label>fr=Crit&#232;res
+en=Criteria</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715520" name="USER_TO" order="4" relationTable="62" relationColumn="0" constraint="0" dataType="2003" keySeq="0" flag="0" size="0" required="true" searchable="false" format="-631027346" mode="0">
+					<label>fr=Destinaires
+en=Recipients</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+field=fr.openage.mdd.meta.MDField@8f1b9106
+]]></properties>
+					<table created="" updated="" id="1894018810" name="INT_1894018810" type="5" mode="0">
+					</table>
+				</column>
+				<column created="" updated="" id="-2016715521" name="EMAIL" order="5" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-27733507" mode="0">
+					<label>fr=Email
+en=Email</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715522" name="TEXT" order="6" relationTable="0" relationColumn="0" constraint="0" dataType="-1" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-297396665" mode="0">
+					<label>fr=Texte
+en=Text</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715523" name="BACKGROUND" order="7" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-27733507" mode="0">
+					<label>fr=Arri&#232;re-plan
+en=Background</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715524" name="FIELD_ID" order="8" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Destinaire
+en=Recipient</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-367648090" name="IS_CREATE" order="9" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-27733507" mode="0">
+					<label>fr=Cr&#233;ation
+en=Created</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-816477130" name="IS_UPDATE" order="10" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="-27733507" mode="0">
+					<label>fr=Modification
+en=Modification</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1734642933" name="CREATED" order="11" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date cr&#233;ation
+en=Created</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=CREATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1734642934" name="UPDATED" order="12" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date MAJ
+en=Updated</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=UPDATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1734642935" name="OWNER_ID" order="13" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Propri&#233;taire
+en=Owner</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=OWNER_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1734665669" name="CREATOR_ID" order="14" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Cr&#233;ateur
+en=Creator</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=CREATOR_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1734665670" name="AUTHOR_ID" order="15" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Auteur
+en=Author</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=AUTHOR_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1734665671" name="ACTIVATED" order="16" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Activation
+en=Activation</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=ACTIVATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1734665672" name="HASHCODE" order="17" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=D&#233;doublonnage
+en=Deduplication</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=HASHCODE
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1734665665" name="TRANSFERED" order="18" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1409576363" mode="0">
+					<label>fr=Transfert
+en=Transfer</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=TRANSFERED
+]]></properties>
+				</column>
+			</columns>
+		</table>
+		<table created="" updated="" id="1048037901" name="DAT_REPORTS" type="2" mode="0">
+			<label>fr=Reporting
+en=Report</label>
+			<parameters></parameters>
+			<columns>
+				<column created="" updated="" id="-2016715511" name="TITLE" order="0" relationTable="0" relationColumn="0" constraint="1" dataType="12" keySeq="0" flag="1" size="255" required="true" searchable="true" format="-1864799332" mode="0">
+					<label>fr=Titre
+en=Title</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715512" name="COMMENTS" order="1" relationTable="0" relationColumn="0" constraint="0" dataType="-1" keySeq="0" flag="0" size="80" required="false" searchable="true" format="-297396665" mode="0">
+					<label>fr=Commentaires
+en=Comments</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715513" name="CURRENCY" order="2" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="true" searchable="true" format="1865606931" mode="0">
+					<label>fr=Devise
+en=Currency</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715514" name="MODEL" order="3" relationTable="0" relationColumn="0" constraint="0" dataType="12" keySeq="0" flag="0" size="255" required="true" searchable="true" format="-1864799332" mode="0">
+					<label>fr=Mod&#232;le
+en=Model</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-2016715515" name="CRITERIA" order="4" relationTable="0" relationColumn="0" constraint="0" dataType="-1" keySeq="0" flag="0" size="0" required="false" searchable="false" format="-297396665" mode="0">
+					<label>fr=Crit&#232;res
+en=Criteria</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="-1686806293" name="CREATED" order="5" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date cr&#233;ation
+en=Created</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=CREATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1686829029" name="UPDATED" order="6" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date MAJ
+en=Updated</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=UPDATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1686829030" name="OWNER_ID" order="7" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Propri&#233;taire
+en=Owner</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=OWNER_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1686829031" name="CREATOR_ID" order="8" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Cr&#233;ateur
+en=Creator</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=CREATOR_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1686829032" name="AUTHOR_ID" order="9" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Auteur
+en=Author</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=AUTHOR_ID
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1686829025" name="ACTIVATED" order="10" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Activation
+en=Activation</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=ACTIVATED
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1686829026" name="HASHCODE" order="11" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=D&#233;doublonnage
+en=Deduplication</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=HASHCODE
+]]></properties>
+				</column>
+				<column created="" updated="" id="-1686829027" name="TRANSFERED" order="12" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1409576363" mode="0">
+					<label>fr=Transfert
+en=Transfer</label>
+					<properties><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+audit=TRANSFERED
+]]></properties>
+				</column>
+			</columns>
+		</table>
+		<table created="" updated="" id="60" name="SYS_UPLOADS" type="0" mode="0">
+			<label>fr=T&#233;l&#233;chargements
+en=Downloads</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="58" name="SYS_TASK_WAITING" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="57" name="SYS_TASK_SUBMIT" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="56" name="SYS_TASK_HISTORY" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="55" name="SYS_TABLES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="54" name="SYS_SHARE_AUTO" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="53" name="SYS_SHARE" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="52" name="SYS_SEQUENCE" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="820846535" name="DAT_LABELS_GENDER" type="3" mode="1">
+			<label>fr=Genre
+en=Gender</label>
+			<parameters></parameters>
+			<labels>
+				<label created="" updated="" id="77" order="0" view="0" deactivated="false" default="true">
+					<text>fr=M
+en=Mr</text>
+					<parameters></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+				<label created="" updated="" id="77477" order="1" view="0" deactivated="false" default="false">
+					<text>fr=Mme
+en=Mrs</text>
+					<parameters></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+			</labels>
+		</table>
+		<table created="" updated="" id="1534073572" name="DAT_LABELS_PRIORITY" type="3" mode="1">
+			<label>fr=Priorit&#233;
+en=Priority</label>
+			<parameters></parameters>
+			<labels>
+				<label created="" updated="" id="69499373" order="0" view="0" deactivated="false" default="false">
+					<text>fr=Haute
+en=High</text>
+					<parameters></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+				<label created="" updated="" id="502695874" order="1" view="0" deactivated="false" default="true">
+					<text>fr=Normale
+en=Normal</text>
+					<parameters></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+				<label created="" updated="" id="63956294" order="2" view="0" deactivated="false" default="false">
+					<text>fr=Basse
+en=Low</text>
+					<parameters></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+			</labels>
+		</table>
+		<table created="" updated="" id="49" name="SYS_SEARCH" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="48" name="SYS_ROLE_RIGHTS_TABLES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="47" name="SYS_ROLE_RIGHTS_RESOURCES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="46" name="SYS_ROLE_HIERARCHIES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="45" name="SYS_RIGHTS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="44" name="SYS_RESOURCES_RIGHTSFILTERS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="43" name="SYS_RESOURCES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="42" name="SYS_REPORTS_TYPE" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="41" name="SYS_RELATIONS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="40" name="SYS_RELATION_DEFINITIONS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="39" name="SYS_RECORDS" type="0" mode="0">
+			<label>fr=Enregistrements
+en=Records</label>
+			<parameters></parameters>
+			<columns>
+				<column created="" updated="" id="1" name="CREATED" order="0" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date cr&#233;ation
+en=Created</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="2" name="UPDATED" order="1" relationTable="0" relationColumn="0" constraint="0" dataType="93" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1409576363" mode="0">
+					<label>fr=Date MAJ
+en=Updated</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="3" name="PKREF" order="2" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="1" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Identifiant
+en=Ident</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="5" name="BASE_ID" order="3" relationTable="0" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="false" format="1865606931" mode="0">
+					<label>fr=Base
+en=Base</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="6" name="OWNER_ID" order="4" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Propri&#233;taire
+en=Owner</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="7" name="CREATOR_ID" order="5" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Cr&#233;ateur
+en=Creator</label>
+					<properties></properties>
+				</column>
+				<column created="" updated="" id="8" name="AUTHOR_ID" order="6" relationTable="62" relationColumn="0" constraint="0" dataType="4" keySeq="0" flag="0" size="0" required="false" searchable="true" format="1865606931" mode="0">
+					<label>fr=Auteur
+en=Author</label>
+					<properties></properties>
+				</column>
+			</columns>
+		</table>
+		<table created="" updated="" id="38" name="SYS_PROJECTS" type="0" mode="1">
+			<label>fr=Projets
+en=Projects</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="37" name="SYS_PROJECT_USER_ROLES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="36" name="SYS_OBJECT_TEMPLATE" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="35" name="SYS_OBJECT" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="34" name="SYS_MIMETYPES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="33" name="SYS_MENUS" type="0" mode="0">
+			<label>fr=Menus
+en=Menus</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="32" name="SYS_MEDIA_ALIAS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="31" name="SYS_MEDIA" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="30" name="SYS_LANG" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="29" name="SYS_ROW_LEVEL_MODEL" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="27" name="SYS_ROW_LEVEL" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="26" name="SYS_FILETYPES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="25" name="SYS_FIELDS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="24" name="SYS_FIELD_RULES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="23" name="SYS_FIELD_GRIDS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="22" name="SYS_FIELD_BEHAVIORS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="20" name="SYS_ELEMENT" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="19" name="SYS_DUPLICATE_PARAMS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="18" name="SYS_DUPLICATE_COMMONWORDS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="17" name="SYS_DUPLICATE_COLUMNS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="15" name="SYS_CRITERIA" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="14" name="SYS_COUNTRIES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="13" name="SYS_CONFIG_COMPANIES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="12" name="SYS_CONFIG" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="11" name="SYS_COMPANY_LANG" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="10" name="SYS_COMPANIES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="9" name="SYS_COLUMNS_PRESET" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="8" name="SYS_COLUMNS_ACCESSFLAGS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="7" name="SYS_COLUMNS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="1991280704" name="DAT_LABELS_UPLOAD_TYPE" type="3" mode="1">
+			<label>fr=Upload
+en=Upload</label>
+			<parameters></parameters>
+			<labels>
+				<label created="" updated="" id="0" order="0" view="0" deactivated="false" default="false">
+					<text></text>
+					<parameters></parameters>
+					<tooltip></tooltip>
+					<image></image>
+				</label>
+			</labels>
+		</table>
+		<table created="" updated="" id="5" name="SYS_CALENDAR_USER_LABELS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="4" name="SYS_CALENDAR_DEFINITIONS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="3" name="SYS_CALENDAR_HOLIDAYS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="2" name="SYS_CALENDAR_COMP_LABELS" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+		<table created="" updated="" id="1" name="SYS_BASES" type="0" mode="0">
+			<label>fr=x
+en=x</label>
+			<parameters></parameters>
+		</table>
+	</tables>
+	<projects>
+		<project created="" updated="" id="0" name="SYS" calendar="false" open="true">
+			<label>fr=Outils
+en=Tools</label>
+			<title>fr=Application syst&#232;me
+en=System application</title>
+			<menus>
+				<menu created="" updated="" id="1" order="0" open="false">
+					<label>fr=D&#233;cisionnel
+en=Business Intelligence</label>
+					<image></image>
+					<views>
+						<view created="" updated="" id="1" order="0" table="1048037901" shared="true" open="true" attached="0" next="0">
+							<label>fr=Reporting
+en=Reporting</label>
+							<title>fr=Reporting
+en=Reporting</title>
+							<mnemo>1</mnemo>
+							<grid></grid>
+							<image></image>
+							<fields>
+								<field created="" updated="" id="-2016715511" order="0" cell="-2016715511" widget="417464835" relationView="0" searchable="true" layout="0">
+									<label>fr=Titre
+en=Title</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+columns=80
+]]></parameters>
+								</field>
+								<field created="" updated="" id="-2016715512" order="1" cell="-2016715512" widget="56524839" relationView="0" searchable="false" layout="0">
+									<label>fr=Commentaires
+en=Comments</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+columns=80\nrows\=2
+]]></parameters>
+								</field>
+								<field created="" updated="" id="-2016715513" order="2" cell="-2016715513" widget="221336873" relationView="0" searchable="true" layout="0">
+									<label>fr=Devise
+en=Currency</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="-2016715514" order="3" cell="-2016715514" widget="192836961" relationView="0" searchable="true" layout="0">
+									<label>fr=Mod&#232;le
+en=Model</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="-2016715515" order="4" cell="-2016715515" widget="1283151796" relationView="0" searchable="false" layout="0">
+									<label>fr=Crit&#232;res
+en=Criteria</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+							</fields>
+						</view>
+						<view created="" updated="" id="5" order="1" table="62" shared="false" open="false" attached="0" next="0">
+							<label>fr=Utilisateurs
+en=Users</label>
+							<title>fr=Utilisateurs
+en=Users</title>
+							<mnemo>5</mnemo>
+							<grid><![CDATA[<root><descriptions name="Default" table-id="62" type="0"><description table-id="5" origin-id="2146453298" order="0" type="1" index="1" width="10" updatable="false"></description><description table-id="5" origin-id="2146453299" order="1" type="0" index="0" width="10" updatable="false"></description><description table-id="5" origin-id="2146453297" order="2" type="0" index="0" width="10" updatable="false"></description><description table-id="5" origin-id="2146453296" order="3" type="0" index="0" width="10" updatable="false"></description><description table-id="5" origin-id="2146453303" order="4" type="0" index="0" width="10" updatable="false"></description></descriptions></root>]]></grid>
+							<image></image>
+							<fields>
+								<field created="" updated="" id="2146453299" order="0" cell="15" widget="415095513" relationView="0" searchable="true" layout="0">
+									<label>fr=Pr&#233;nom
+en=First name</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="2146453298" order="1" cell="16" widget="415095513" relationView="0" searchable="true" layout="0">
+									<label>fr=Nom
+en=Last name</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="2146453297" order="2" cell="18" widget="415095513" relationView="0" searchable="true" layout="0">
+									<label>fr=Email
+en=Email</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="2146453296" order="3" cell="19" widget="415095513" relationView="0" searchable="true" layout="0">
+									<label>fr=T&#233;l&#233;phone
+en=Phone</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="2146453303" order="4" cell="20" widget="415095513" relationView="0" searchable="true" layout="0">
+									<label>fr=Mobile
+en=Mobile</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+							</fields>
+						</view>
+					</views>
+				</menu>
+				<menu created="" updated="" id="2" order="1" open="false">
+					<label>fr=Workflow
+en=Workflow</label>
+					<image></image>
+					<views>
+						<view created="" updated="" id="2" order="0" table="1048037902" shared="true" open="false" attached="0" next="0">
+							<label>fr=Alertes
+en=Alerts</label>
+							<title>fr=Alertes
+en=Alerts</title>
+							<mnemo>2</mnemo>
+							<grid></grid>
+							<image></image>
+							<fields>
+								<field created="" updated="" id="-2016715516" order="0" cell="-2016715516" widget="417464835" relationView="0" searchable="true" layout="0">
+									<label>fr=Libell&#233;
+en=Label</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+columns=80
+]]></parameters>
+								</field>
+								<field created="" updated="" id="-626435754" order="1" cell="-367648090" widget="1698306896" relationView="0" searchable="true" layout="0">
+									<label>fr=Cr&#233;ation
+en=Created</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="-626435753" order="2" cell="-816477130" widget="1698306896" relationView="0" searchable="true" layout="1">
+									<label>fr=Modification
+en=Modification</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="-2016715523" order="3" cell="-2016715523" widget="1698306896" relationView="0" searchable="false" layout="1">
+									<label>fr=Arri&#232;re-plan
+en=Background</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="-2016715517" order="4" cell="-2016715517" widget="407707135" relationView="5" searchable="false" layout="0">
+									<label>fr=Auteurs
+en=Authors</label>
+									<title></title>
+									<tip>fr=Si aucune s&#233;lection, tous les utilisateurs sont s&#233;lectionn&#233;s.
+en=If no selection, all the users are selected.</tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+width=450\nunit\=px
+]]></parameters>
+									<view created="" updated="" id="3" order="-1" table="1894018807" shared="true" open="false" attached="0" next="0">
+										<label>fr=Utilisateurs
+en=Users</label>
+										<title>fr=Utilisateurs
+en=Users</title>
+										<mnemo>3</mnemo>
+										<grid></grid>
+										<image></image>
+									</view>
+								</field>
+								<field created="" updated="" id="-2016715518" order="5" cell="-2016715518" widget="1144079756" relationView="0" searchable="true" layout="0">
+									<label>fr=Vue
+en=View</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+type=view
+]]></parameters>
+									<rules>
+										<rule created="" updated="" id="-2016715518" class="ui.rules.UIAlertFilter1" order="0">
+											<value></value>
+										</rule>
+									</rules>
+								</field>
+								<field created="" updated="" id="-2016715519" order="6" cell="-2016715519" widget="1283151796" relationView="0" searchable="false" layout="0">
+									<label>fr=Crit&#232;res
+en=Criteria</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+column=8.3\nrestricted\=false\nfield\=fr.openage.mdd.meta.MDField@87cb5d4c
+]]></parameters>
+								</field>
+								<field created="" updated="" id="-2016715520" order="7" cell="-2016715520" widget="407707135" relationView="5" searchable="false" layout="0">
+									<label>fr=Destinaires
+en=Recipients</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+width=450\nunit\=px
+]]></parameters>
+									<view created="" updated="" id="4" order="-1" table="1894018810" shared="true" open="false" attached="0" next="0">
+										<label>fr=Utilisateurs
+en=Users</label>
+										<title>fr=Utilisateurs
+en=Users</title>
+										<mnemo>4</mnemo>
+										<grid></grid>
+										<image></image>
+									</view>
+								</field>
+								<field created="" updated="" id="-2016715521" order="8" cell="-2016715521" widget="1698306896" relationView="0" searchable="false" layout="0">
+									<label>fr=Email
+en=Email</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+label=fr\=Envoyer|enTo Send\nenabled\=true
+]]></parameters>
+								</field>
+								<field created="" updated="" id="-2016715524" order="9" cell="-2016715524" widget="1144079756" relationView="0" searchable="false" layout="1">
+									<label>fr=Destinaire
+en=Recipient</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+type=field\nfield\=fr.openage.mdd.meta.MDField@87cb5d4c
+]]></parameters>
+									<rules>
+										<rule created="" updated="" id="-2016715524" class="ui.rules.UIDependencyValue" order="0">
+											<value><![CDATA[conditions=<?xml version\="1.0" encoding\="UTF-8"?><groups><group><condition id\="-2016715521" comparator\="3">true</condition></group></groups>]]></value>
+										</rule>
+										<rule created="" updated="" id="-2016715524" class="ui.rules.UIAlertFilter2" order="1">
+											<value></value>
+										</rule>
+									</rules>
+								</field>
+								<field created="" updated="" id="-2016715522" order="10" cell="-2016715522" widget="180469350" relationView="0" searchable="false" layout="0">
+									<label>fr=Texte
+en=Text</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+field=fr.openage.mdd.meta.MDField@87cb5d4c
+]]></parameters>
+									<rules>
+										<rule created="" updated="" id="-2016715522" class="ui.rules.UIDependencyValue" order="0">
+											<value><![CDATA[conditions=<?xml version\="1.0" encoding\="UTF-8"?><groups><group><condition id\="-2016715521" comparator\="3">true</condition></group></groups>]]></value>
+										</rule>
+									</rules>
+								</field>
+							</fields>
+						</view>
+					</views>
+				</menu>
+				<menu created="" updated="" id="3" order="2" open="false">
+					<label>fr=Donn&#233;es
+en=Data</label>
+					<image></image>
+					<views>
+						<view created="" updated="" id="6" order="0" table="1357963732" shared="true" open="false" attached="0" next="0">
+							<label>fr=Imports
+en=Imports</label>
+							<title>fr=Imports
+en=Imports</title>
+							<mnemo>6</mnemo>
+							<grid></grid>
+							<image></image>
+							<fields>
+								<field created="" updated="" id="255502708" order="0" cell="-1096586476" widget="417464835" relationView="0" searchable="true" layout="0">
+									<label>fr=Titre
+en=Title</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+columns=50
+]]></parameters>
+								</field>
+								<field created="" updated="" id="1097326149" order="1" cell="-1363816667" widget="1698306896" relationView="0" searchable="true" layout="1">
+									<label>fr=Tout ou rien
+en=All or nothing</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="255475268" order="2" cell="-1963990524" widget="1698306896" relationView="0" searchable="true" layout="1">
+									<label>fr=Compl&#233;t&#233;
+en=Completed</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+enabled=false
+]]></parameters>
+								</field>
+								<field created="" updated="" id="255520868" order="3" cell="-1233479276" widget="1144079756" relationView="0" searchable="true" layout="0">
+									<label>fr=Cible
+en=Target</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+type=data_table
+]]></parameters>
+								</field>
+								<field created="" updated="" id="458617334" order="4" cell="361085910" widget="1144079756" relationView="0" searchable="true" layout="1">
+									<label>fr=Vue cible
+en=Target view</label>
+									<title></title>
+									<tip>fr=</tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+type=view\nfield\=fr.openage.mdd.meta.MDField@f3af142
+]]></parameters>
+								</field>
+								<field created="" updated="" id="-661991227" order="5" cell="864454805" widget="288763438" relationView="0" searchable="false" layout="0">
+									<label>fr=Contenu - Fichier
+en=Content - File</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters></parameters>
+								</field>
+								<field created="" updated="" id="255465300" order="6" cell="-1289035164" widget="56524839" relationView="0" searchable="true" layout="0">
+									<label>fr=Contenu - Texte
+en=Content - Text</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+columns=120\nrows\=12
+]]></parameters>
+									<rules>
+										<rule created="" updated="" id="255465300" class="ui.behaviors.imports.UIImportInitHeadersRule" order="0">
+											<value></value>
+										</rule>
+									</rules>
+									<behaviors>
+										<behavior created="" updated="" id="255465300" class="ui.behaviors.imports.UIImportInitHeadersBehavior" order="0">
+											<value></value>
+										</behavior>
+									</behaviors>
+								</field>
+								<field created="" updated="" id="255475269" order="7" cell="-2064513724" widget="56524839" relationView="0" searchable="true" layout="0">
+									<label>fr=CR
+en=CR</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+enabled=false\ncolumns\=120\nrows\=5
+]]></parameters>
+								</field>
+								<field created="" updated="" id="-1710264012" order="8" cell="-1807144572" widget="56524839" relationView="0" searchable="true" layout="0">
+									<label>fr=Erreur
+en=Error</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+columns=120\nrows\=12
+]]></parameters>
+								</field>
+							</fields>
+							<behaviors>
+								<behavior created="" updated="" id="0" class="ui.behaviors.imports.UIImport" order="0">
+									<value></value>
+								</behavior>
+							</behaviors>
+						</view>
+					</views>
+				</menu>
+			</menus>
+		</project>
+		<project created="2024-04-09 15:24:57.212" updated="2024-04-09 15:24:57.212" id="-1361671043" name="TEST" calendar="false" open="true">
+			<label>fr=test</label>
+			<title></title>
+			<menus>
+				<menu created="2024-04-09 15:25:02.846" updated="2024-04-09 15:25:02.846" id="-1280647587" order="0" open="true">
+					<label>fr=test</label>
+					<image></image>
+					<views>
+						<view created="2024-04-09 15:25:09.411" updated="2024-04-09 15:25:09.411" id="-1214439283" order="0" table="487698269" shared="true" open="false" attached="-1" next="-1">
+							<label>fr=TEST
+en=TEST</label>
+							<title></title>
+							<mnemo>-1214439283</mnemo>
+							<grid></grid>
+							<image></image>
+							<fields>
+								<field created="2024-04-09 15:25:11.236" updated="2024-04-09 15:25:11.236" id="-1230329859" order="0" cell="488556717" widget="417464835" relationView="0" searchable="true" layout="0">
+									<label>fr=test</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+aggregatable=false
+groupable=true
+]]></parameters>
+								</field>
+								<field created="2024-04-09 15:25:11.236" updated="2024-04-09 15:25:11.236" id="-1230329860" order="1" cell="-1545519347" widget="417464835" relationView="0" searchable="true" layout="0">
+									<label>fr=tt</label>
+									<title></title>
+									<tip></tip>
+									<hover></hover>
+									<help></help>
+									<group></group>
+									<parameters><![CDATA[#Tue Apr 09 15:26:11 CEST 2024
+aggregatable=false
+groupable=true
+]]></parameters>
+								</field>
+							</fields>
+						</view>
+					</views>
+				</menu>
+			</menus>
+		</project>
+	</projects>
+</model>
